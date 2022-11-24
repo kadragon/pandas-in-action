@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pandas-in-action"
+version = "0.1.0"
+description = ""
+authors = ["kangdonguk <kangdongouk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pandas_in_action"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
